@@ -1,0 +1,3 @@
+class RubyCommandController < ObjectDatabaseModelSuperclassController
+  acts_as_metadata_crud_controller RubyCommand
+end
